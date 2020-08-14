@@ -1,3 +1,4 @@
+message = ['ᵒᴥᵒ ','ʕ•ᴥ•ʔ  ','ʕᵔᴥᵔʔ ',"ʕ •́؈•̀ ₎ ","ʕ •`ᴥ•´ʔ ",'ヽ༼ ಠ益ಠ ༽ﾉ ']
 let createMessage = (answer)=> {
     if(answer == "1") {
         return 'ᵒᴥᵒ '

@@ -1,23 +1,25 @@
-message = ['ᵒᴥᵒ ','ʕ•ᴥ•ʔ  ','ʕᵔᴥᵔʔ ',"ʕ •́؈•̀ ₎ ","ʕ •`ᴥ•´ʔ ",'ヽ༼ ಠ益ಠ ༽ﾉ ']
-let createMessage = (answer)=> {
+messages = ['ᵒᴥᵒ ','ʕ•ᴥ•ʔ  ','ʕᵔᴥᵔʔ ',"ʕ •́؈•̀ ₎ ","ʕ •`ᴥ•´ʔ ",'ヽ༼ ಠ益ಠ ༽ﾉ ']
+const createMessage = (answer)=> {
+    let message="";
     if(answer == "1") {
-        return 'ᵒᴥᵒ '
+        message = messages[0]
     }
     else if (answer == 2) {
-        return 'ʕ•ᴥ•ʔ  '
+        message = messages[1]
     }
     else if (answer == 3) {
-        return 'ʕᵔᴥᵔʔ '
+        message = messages[2]
     }
     else if (answer == 4) {
-        return "ʕ •́؈•̀ ₎ "
+        message = messages[3]
     }
     else if (answer<=10 && answer>=5) {
-        return "ʕ •`ᴥ•´ʔ "
+        message = messages[4]
     }
     else{
-        return 'ヽ༼ ಠ益ಠ ༽ﾉ '
+        message = messages[5]
     }
+    return message
 }
 const form = document.getElementById("my-form");
 console.log(form);

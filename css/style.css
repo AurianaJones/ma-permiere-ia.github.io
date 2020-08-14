@@ -5,6 +5,10 @@ body{
     background-image: url("../images/image0.jpg");
     background-position: top;
     background-size: 85pc;
+}
+#my_ia{
     mix-blend-mode: multiply;
     color: darkslateblue;
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
 }
